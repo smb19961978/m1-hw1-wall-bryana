@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+body{
+    background-color: azure;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+header h1{
+    text-align: center;
+}
+
+main, nav ul{
+    padding-top: 1%;
+    padding-left: 2%; 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: 0;
+
+}
+
+footer h3{
+    text-align: center;
+    padding-top: 5%;
+}
+
